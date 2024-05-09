@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+.conatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+main {
+    display: flex;
+    width: 100%;
+}
+#text-side {
+    flex: 1;
+    padding: 20px;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+#img-side {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#text-side h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+#text-side p {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.4;
+    width: 80%;
+    box-sizing: border-box;
+}
+#text-side button {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+    box-sizing: border-box;
+
+}
+.clients-logo img {
+    width: 5rem;
+    margin-right: 1rem;
+    box-sizing: border-box;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+    box-sizing: border-box;
+}

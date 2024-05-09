@@ -1,0 +1,3 @@
+Js EVENTS
+1. Methods
+2. All events

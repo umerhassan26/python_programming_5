@@ -1,0 +1,8 @@
+Date 19 April 2024 (HTML & CSS)
+1. Create a first web page of ecommerce website.
+2. logo with styling
+3. nav bar (header)
+4. Menu.. must be use icons like login and signup
+5. Product Section show with the products images
+6. Contact us  form  with map
+7. footer 

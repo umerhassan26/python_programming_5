@@ -1,0 +1,9 @@
+1. DOM
+The Document Object Model is a cross-platform and language-independent interface that treats an HTML or XML document as a tree structure wherein each node is an object representing a part of the document. The DOM represents a document with a logical tree.
+There are a few different methods for selecting an element in the HTML document.
+2.getElementById()
+3.innerText
+4.innerHTML
+5.getElementByClassName
+6.getElementByTagname
+7. querySelector()

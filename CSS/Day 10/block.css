@@ -1,0 +1,62 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    background-color: darkgrey;
+    text-align: center;
+    padding: 20px;
+
+}
+.navbar {
+    background-color: bisque;
+    overflow: hidden;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #ddd;
+}
+.main-content {
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+.sidebar {
+    display: block;
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
+.footer {
+    background-color: darkgrey;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+   
+}
+.parent {
+    text-align: center;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 10px;
+    background-color: #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#a{
+    visibility: visible;
+}
+#b{
+    visibility: hidden;
+}

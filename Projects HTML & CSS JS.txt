@@ -1,0 +1,39 @@
+Group Alpha
+1. Muneeba 
+2. Andleeb
+
+Projects 
+1. Expanding Cards
+2. Progress Steps
+3. Sound Board
+
+Group Beta
+1. Tooba
+2. Urwah
+
+Projects 
+1. FAQ Collapse
+2. Drag n Drop
+3. Drawing App
+
+Group Charlie
+
+1. Ahmad
+2. Ashad
+3. SaRIM
+
+Projects
+1. Drinking Water App
+2. Password Generator
+3. Background Selector
+4. Theme Date
+
+Group Delta
+
+1. Zain
+2. Osama 
+
+Projects
+1. Movie App
+2. Verify Account
+3. Netflix Mobile Navigation

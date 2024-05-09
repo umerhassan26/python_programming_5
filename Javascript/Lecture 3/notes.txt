@@ -1,0 +1,16 @@
+Reference Links:
+1. https://www.tutorialsteacher.com/javascript/javascript-operators
+Topics
+1. Assigment operators
+2. Ternary operators
+3. Data Types
+ 3.1 Primitive Data Types
+Tasks
+Find the area of a rectangle where the length is 5 and the width is 8. Formula width * height;
+Find the area of a triangle where the base is 4 and the height is 3. formula 0.5 * base * height;
+Find the area of a circle where the radius is 3.
+Convert temperatures from Celsius to Fahrenheit and Fahrenheit to Celsius. formula  (celsius * 9/5) + 32;
+Check from the given integer, whether it is positive or negative.
+Check whether a given number is even or odd.
+Check whether a given positive number is a multiple of 3.
+

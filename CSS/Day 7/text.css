@@ -1,0 +1,31 @@
+#para1 {
+    text-align: left;
+    text-decoration: overline;
+    text-decoration-color: brown;
+    text-transform: capitalize;
+    text-indent: 100px;
+    letter-spacing: 5px;
+
+
+}
+
+#t1 {
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration-color: #a3d01d;
+    text-decoration-style: wavy;
+    text-transform: lowercase;
+    line-height: 50px;
+    white-space: wrap;
+}
+
+#t2 {
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+    text-transform: uppercase;
+    word-spacing: 20px;
+}
+
+#t3 {
+    text-shadow: 2px 2px red;
+}

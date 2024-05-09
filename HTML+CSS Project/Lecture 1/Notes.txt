@@ -1,0 +1,15 @@
+Reference Links
+https://www.guru99.com/introduction-to-javascript.html
+https://www.tutorialsteacher.com/javascript/what-is-javascript
+Topics
+1. How to jscode Print
+2. Syntax
+3. Keywords
+4. Messages Box
+5. Variables
+6. Naming variables in JavaScript
+Variable names must start with a letter, an underscore ( _ ) or a dollar sign ( $ ).
+Variable names cannot contain spaces.
+Variables cannot be the same as reserved keywords such as if or const .
+By convention, JavaScript variable names are written in camelCase.
+7. Local & Global Variable

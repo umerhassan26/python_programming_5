@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "sidebar main"
+    "footer footer"
+    ;
+  gap: 10px;
+  height: 500px;
+
+}
+.header{
+    grid-area: header;
+    background-color: bisque;
+    border: 5px solid;
+}
+.menu{
+    grid-area: menu;
+    background-color: blueviolet;
+}
+.main {
+    grid-area: main;
+    background-color: aquamarine;
+
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: cadetblue;
+}
+.footer {
+    grid-area: footer;
+    background-color: chocolate;
+}

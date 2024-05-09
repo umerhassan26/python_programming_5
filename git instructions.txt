@@ -1,0 +1,15 @@
+For new install git and github
+1.Install Git (https://git-scm.com/downloads)
+2. Check version on windows cmd git version
+git --version
+3. Create account on github
+4. Create a folder and route on this folder through cmd
+5. git init
+6. Create a file e.g html and css
+7. git status
+8. git add (filename)
+9.git commit -m "Test file"
+10. git config --global user.username
+11.Open your Github account and create a new repository with the name "test_demo" and click on "Create repository." This is the remote repository. Next, copy the link of "test_demo."
+12. git remote add origin <link>
+13 . git push origin master

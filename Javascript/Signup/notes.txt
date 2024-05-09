@@ -1,0 +1,7 @@
+Signip Page with forms
+1. https://boxicons.com/usage
+2.  Tasks
+1. Contact us Page with forms
+2.  create a button that changes its background color when clicked.
+4.create a color picker that changes the background color of a page element based on user selections
+5. create a button that enlarges the image when clicked

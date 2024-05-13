@@ -40,8 +40,8 @@ function createUserCard(user){
     <div id = "repos"> </div>
     </div>
     </div>
-     `
-     main.innerHTML = cardHTML
+    `
+    main.innerHTML = cardHTML
 }
 function addReposToCard(repos){
      const reposE1 = document.getElementById('repos')

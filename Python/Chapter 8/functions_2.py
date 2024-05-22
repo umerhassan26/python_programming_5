@@ -9,8 +9,8 @@ username = ['Ali','Ahmad','Imran']
 users(username)
 
 # Multiple number of arguments
-def make_pizza(*toppings):
+def makepizza(*toppings):
     print(toppings)
 
-make_pizza('chilli')
-make_pizza('green_chilli','bbq','extra cheese')
+makepizza('chilli')
+makepizza('green_chilli','bbq','extra cheese')

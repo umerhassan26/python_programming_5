@@ -37,7 +37,7 @@ info_1('Umer','Hassan')
 
 # Return Value Function
 def formatted_names(firstname,lastname):
-    fullname = f'{firstname},last{lastname}'
+    fullname = f'{firstname},{lastname}'
     return fullname.upper()
 information = formatted_names('umer','hassan')
 print(information)

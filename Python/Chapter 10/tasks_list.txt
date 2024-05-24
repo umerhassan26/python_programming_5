@@ -1,0 +1,8 @@
+Tasks:
+1. contents = contents.rstrip()
+2. Relative and Absolute File Paths
+
+Write 
+contents = "I love programming.\n"
+contents += "I love creating new games.\n"
+contents += "I also love working with data.\n"

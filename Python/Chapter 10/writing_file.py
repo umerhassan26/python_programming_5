@@ -6,9 +6,10 @@
 import os
 file_path = 'Python_writing.txt'
 
+
 with open(file_path , 'w') as file:
     file.write('This is a second method of file text')
-
+ 
 
 print('This written file successfully')
 

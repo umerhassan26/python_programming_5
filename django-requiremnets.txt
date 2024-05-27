@@ -1,0 +1,16 @@
+1.To create virtual enviroment
+python -m venv .venv
+2. Set Policy
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+3. To activate virtual enviroment
+.venv\Scripts\activate
+4. Install Pip 
+python -m pip install --upgrade pip
+5. To install django
+python -m pip install django
+6. First Django Project
+django-admin startproject django_project
+7.The Development Server
+python manage.py runserver
+9. Install Package 
+python -m pip install black

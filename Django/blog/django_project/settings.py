@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-dpjh4y5@p7x^(+ronn!xkzo__^7l@=kdyqx4lya)ybw#mf*es6"
+SECRET_KEY = "django-insecure-#n)tchk6osb_^!+cs9i%uz9vhz_9n0fh^y95izvb+7-o8@_zjj"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "blog", # new
+    "accounts", # new
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,7 @@ ROOT_URLCONF = "django_project.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / "templates"],
+       "DIRS": [BASE_DIR / "templates"], # new
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -118,8 +119,21 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 STATICFILES_DIRS = [BASE_DIR / "static"] # new
+STATIC_ROOT = BASE_DIR / "staticfiles" # new
+STORAGES = {
+ "default": {
+ "BACKEND": "django.core.files.storage.FileSystemStorage",
+ },
+ "staticfiles": {
+ "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
+ },
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# django_project/settings.py
+LOGIN_REDIRECT_URL = "home" # new
+LOGOUT_REDIRECT_URL = "home" # new
